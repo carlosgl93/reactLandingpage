@@ -38,7 +38,9 @@ function App() {
     <div className="wrapper">
     <Navbar />
     <Jumbotron />
+    <div className="cardContainer">
     {renderCards()}
+    </div>
     </div>
   );
 }
